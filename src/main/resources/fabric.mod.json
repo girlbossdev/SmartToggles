@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "smart-toggles",
+  "version": "${version}",
+  "name": "Smart Toggles",
+  "description": "Adds tap-hold options to toggle keys",
+  "contact": {
+    "homepage": "https://modrinth.com/mod/SmartToggles",
+    "issues": "https://github.com/girlbossdev/SmartToggles/issues",
+    "sources": "https://github.com/girlbossdev/SmartToggles"
+  },
+  "authors": [
+    {
+      "name": "arcane",
+      "contact": {
+        "homepage": "https://github.com/girlbossdev"
+      }
+    }
+  ],
+  "license": "MIT",
+  "icon": "assets/smart-toggles/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.girlboss.smarttoggles.SmartToggles"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "smart-toggles.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "java": "${java}",
+    "minecraft": "${minecraft}",
+    "fabric-api": "*"
+  }
+}

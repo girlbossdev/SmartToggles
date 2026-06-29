@@ -1,0 +1,4 @@
+{
+  "options.smarttoggles.toggleholdwindow": "Toggle/Hold Window",
+  "options.smarttoggles.toggleholdwindow.tooltip": "Time in ticks until a pressed toggle key is considered held."
+}

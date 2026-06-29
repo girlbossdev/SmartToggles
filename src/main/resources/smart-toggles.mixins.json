@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.girlboss.smarttoggles.mixins",
+  "compatibilityLevel": "JAVA_${java}",
+  "client": [
+    "ControlsScreenMixin",
+    "ToggleKeyMappingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

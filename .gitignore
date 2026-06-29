@@ -1,0 +1,7 @@
+.gradle/
+.idea/**
+!./idea/icon.png
+build/
+versions/**/build/
+versions/**/run/
+.DS_Store
